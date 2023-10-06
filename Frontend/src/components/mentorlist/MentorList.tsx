@@ -1,20 +1,18 @@
-import React, { useState } from "react";
 import { IMentor } from "../../types/mentors.types";
 import styles from "../../pages/Mentor/Mentor.module.css";
-import MentorBook from "../mentorbook/MentorBook";
 import { useNavigate } from "react-router-dom";
 
-const MentorList = ({ mentor = [] }: { mentor: Array<IMentor | []> }) => {
+const MentorList = ({ mentor = [] }: { mentor: Array<IMentor> }) => {
   const navigate = useNavigate();
 
-  const handleNavigate = (id) => {
+  const handleNavigate = (id: string) => {
     navigate(`/mentorsbook/${id}`);
   };
 
   return (
     <>
       {mentor.length > 0 &&
-        mentor.map((res, index) => (
+        mentor.map((res: IMentor, index) => (
           <div key={index}>
             <div className={styles.mentorsImage}>
               <img src="https://image.dummyjson.com/400x200/282828" alt="" />

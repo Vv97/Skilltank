@@ -5,7 +5,7 @@ export interface IAvailabilitySlot {
 }
 
 export interface IMentor {
-  _id?: string;
+  _id: string;
   name: string;
   mentorID: string;
   setShow?: (value: boolean) => void;
