@@ -1,0 +1,4 @@
+.activelink > .active {
+  color: #000; /* Apply your desired styles for active links */
+  font-weight: 600;
+}

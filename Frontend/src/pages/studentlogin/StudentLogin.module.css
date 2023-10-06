@@ -1,0 +1,82 @@
+.auth {
+  background: linear-gradient(to right, rgb(174, 69, 174), rgb(240, 65, 155));
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.authContainer {
+  width: auto;
+  padding: 34px 18px;
+  background-color: #fff;
+  height: auto;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.authContainer > h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.authBtnCon {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  /* border: 1px solid green; */
+}
+
+.authBtnCon > div {
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+}
+
+.authBtnCon > div > button {
+  width: 140px;
+  height: 50px;
+  outline: none;
+  font-size: 1.3rem;
+  border: none;
+}
+
+.authBtnCon > div > button:nth-child(1) {
+  border-radius: 5px 0 0 5px;
+}
+
+.authBtnCon > div > button:nth-child(2) {
+  border-radius: 0 5px 5px 0;
+}
+
+.auth input:not(input[type="submit"]),
+.auth select {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+  outline: none;
+  padding: 5px 12px;
+  height: 45px;
+  color: #363636;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.auth input:not(input[type="submit"])::placeholder,
+.auth select {
+  color: #979796;
+}
+
+.auth input[type="submit"] {
+  width: 100%;
+  background: linear-gradient(to right, rgb(174, 69, 174), rgb(240, 65, 155));
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e6e6e6;
+  outline: none;
+  height: 55px;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+}

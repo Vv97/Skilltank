@@ -1,0 +1,12 @@
+.signup > form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 13px; */
+  margin-top: 25px;
+}
+
+.signup > form > span {
+  color: #e98eb7;
+  margin-top: 8px;
+  cursor: pointer;
+}

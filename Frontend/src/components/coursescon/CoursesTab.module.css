@@ -1,0 +1,59 @@
+.courses > div:nth-child(1),
+.courses > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.courses > div:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.courses input {
+  border: none;
+  margin-top: 3px;
+  outline: none;
+  padding: 5px 0;
+}
+
+.courses > div:nth-child(1) label {
+  color: #828283;
+}
+
+.courses > div {
+  border: 1px solid #e7edef;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.courses > div:nth-child(2) {
+  display: flex;
+}
+
+.courses > div:nth-child(2) > div {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.courses > div:nth-child(2) > button {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.2rem;
+  justify-content: center;
+  outline: none;
+  background-color: #af8994;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.CouraseBtnCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
